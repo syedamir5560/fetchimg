@@ -11,7 +11,7 @@ function Search(props) {
     <>
        <form  onSubmit={onHandleSubmit}>
        <input type='text'  placeholder='Serach...' value={txt}
-        onChange={(e)=>settxt(e.target.value)} />
+        onChange={(e)=>settxt(e.target.value)} id='id' />
        </form>
     </>
   )
