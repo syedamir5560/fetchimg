@@ -1,7 +1,33 @@
 {
-
-"user":{
-        
-}
-
+  "users": [
+    {
+      "id": "1e50",
+      "name": "Manish",
+      "age": 43,
+      "profession": "ChargeMan"
+    },
+    {
+      "id": "a8d5",
+      "name": "Manish",
+      "age": 43,
+      "profession": "ChargeMan"
+    },
+    {
+      "id": "0550",
+      "name": "Manish",
+      "age": 43,
+      "profession": "ChargeMan"
+    },
+    {
+      "id": "2e84",
+      "name": "Manish",
+      "age": 43,
+      "profession": "ChargeMan"
+    }
+  ],
+  "products": [
+    {
+      "brand": "Dell"
+    }
+  ]
 }
