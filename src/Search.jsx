@@ -1,4 +1,6 @@
 import React from 'react'
+// import './App.css';
+import './index.css';
 
 function Search(props) {
 
@@ -9,9 +11,10 @@ function Search(props) {
 
   return (
     <>
-       <form  onSubmit={onHandleSubmit}>
-       <input type='text'  placeholder='Serach...' value={txt}
-        onChange={(e)=>settxt(e.target.value)} id='id' />
+       <form  onSubmit={onHandleSubmit} className='form'>
+       <input type='text'  placeholder='Serach...'  className="search" value={txt}
+         onChange={(e)=>settxt(e.target.value)} />
+        <button className='btn'  onChange={(e)=>settxt(e.target.value)}>Search</button>
        </form>
     </>
   )
