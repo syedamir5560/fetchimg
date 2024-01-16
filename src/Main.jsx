@@ -20,11 +20,12 @@ function Main() {
             })
     }
 
-
     return (
         <div>
             <Search txt={txt} settxt={settxt} onHandleSubmit={onHandleSubmit} />
-            <RenderImg data={data}/>
+           <div className='data'>
+           <RenderImg data={data}/>
+           </div>
         </div>
     )
 }

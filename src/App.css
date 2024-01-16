@@ -8,7 +8,8 @@ body {
     align-items: start;
     height: auto;
     margin-top: 50px;
-    
+    width: 100%;
+
 }
 
 .container {
@@ -21,6 +22,8 @@ input[type="text"] {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 20vw;
+    margin-left: 32%;
+
 }
 
 button {
@@ -31,9 +34,21 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 button:hover {
     background-color: #45a049;
+}
+
+.data {
+    border: 3px solid red;
+    width: 85vw;
+    height: auto;
+    margin-top: 4vh;
+    padding: 3%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-left: -100px;
+
 }
