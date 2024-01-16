@@ -50,5 +50,11 @@ button:hover {
     margin-bottom: 20px;
     border-radius: 10px;
     margin-left: -100px;
+    background-color: rgb(89, 90, 93);
+}
 
+div img{
+    width:40vw;
+    height: 60vh;
+    border: 3px solid blanchedalmond;
 }
